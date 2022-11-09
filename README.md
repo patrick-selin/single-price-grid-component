@@ -9,9 +9,9 @@
 
 ### Links
 
- Live Site: [CLICK](https://patrick-selin.github.io/huddle-landing-page/)
+ Live Site: [CLICK](https://patrick-selin.github.io/single-price-grid-component/)
 
- Code: [CLICK](https://github.com/patrick-selin/huddle-landing-page)
+ Code: [CLICK](https://github.com/patrick-selin/single-price-grid-component.git)
 
 ### Built with
 
