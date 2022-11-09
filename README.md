@@ -4,7 +4,7 @@
 
 ### Screenshot
 
-![solution](https://github.com/patrick-selin/huddle-landing-page/blob/main/images/huddle-landing-page-solutiond.png)
+![solution](https://github.com/patrick-selin/single-price-grid-component/blob/main/images/Single%20Price%20Grid%20Component%20solution.png)
 
 
 ### Links
