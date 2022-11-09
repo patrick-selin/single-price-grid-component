@@ -18,12 +18,10 @@
     box-sizing: border-box;
 }
 
-
 html,
 body {
     height: 100vh;
 }
-
 
 body {
     font-family: 'Karla', sans-serif;
@@ -60,8 +58,6 @@ h6 {
     overflow-wrap: break-word;
 }
 
-
-
 h1 {
     color: var(--cyan2);
     font-size: 1.5rem;
@@ -71,8 +67,6 @@ h1 {
 h3 {
     padding-bottom: 1rem;
 }
-
-
 
 a {
     color: var(--white);
@@ -88,9 +82,7 @@ a:hover {
     color: var(--white);
     background-color: var(--yellow);
     opacity: 0.9;
-    
 }
-
 
 .card-container {
     margin: 1rem;
@@ -99,19 +91,18 @@ a:hover {
     max-width: 635px;
 }
 
-
 .info {
     background-color: var(--white);
     color: var(--blue-grey)
 }
 
-.info h3 {
+.info h2 {
     color: var(--yellow);
+    padding-bottom: 1rem;
 }
 
 .double {
     display: flex;
-    
 }
 
 .plan {
@@ -120,26 +111,23 @@ a:hover {
     font-weight: 400;
 }
 
-.plan span{
+.plan span {
     font-size: 1rem;
     color: var(--light-grey);
     font-weight: 200;
     margin-left: 0.7rem;
     position: absolute;
     top: 5px;
-    
 }
 
 .price {
-    display:flex;
+    display: flex;
     align-items: center;
-    position:relative;
+    position: relative;
 }
 
-
-.plan p  {
+.plan p {
     margin-bottom: 2rem;
-    
 }
 
 .about {
@@ -154,25 +142,21 @@ a:hover {
 .about li {
     font-size: 0.85rem;
     font-weight: 200;
-} 
+}
 
 .padding {
     padding: 2.5rem;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 500px) {
     .card-container {
         margin: 0.5rem;
-        
     }
-
     .double {
-        display:flex;
+        display: flex;
         flex-direction: column;
     }
-
     .padding {
         padding: 1.5rem;
     }
-
-  }
+}
