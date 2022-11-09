@@ -84,6 +84,13 @@ a {
     border-radius: 0.5rem;
 }
 
+a:hover {
+    color: var(--white);
+    background-color: var(--yellow);
+    opacity: 0.9;
+    
+}
+
 
 .card-container {
     margin: 1rem;
@@ -117,8 +124,7 @@ a {
     font-size: 1rem;
     color: var(--light-grey);
     font-weight: 200;
-    margin-left: 0.3rem;
-
+    margin-left: 0.7rem;
     position: absolute;
     top: 5px;
     
@@ -155,13 +161,18 @@ a {
 }
 
 @media only screen and (max-width: 550px) {
-    body {
-      background-color: pink;
+    .card-container {
+        margin: 0.5rem;
+        
     }
 
     .double {
         display:flex;
         flex-direction: column;
+    }
+
+    .padding {
+        padding: 1.5rem;
     }
 
   }
